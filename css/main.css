@@ -1,0 +1,160 @@
+/******************
+ELEMENT TAGS
+******************/
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: "Spartan", sans-serif;
+	font-size: 1.6rem;
+	background-color: #fff;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 7.2rem;
+}
+
+h1 {
+	font-size: 4.8rem;
+	font-weight: 700;
+	color: #512051;
+	line-height: 4.8rem;
+	letter-spacing: -1.7px;
+	padding: 0.6rem;
+}
+
+.container {
+	max-width: 111rem;
+	padding: 12.5rem 0 10rem;
+}
+.banner {
+	display: flex;
+	gap: 12.5rem;
+}
+
+.heading-detail {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #927b91;
+	line-height: 2.5rem;
+	letter-spacing: -0.5px;
+}
+
+.heading-reviews {
+}
+.review-summary li {
+	margin-bottom: 1.6rem;
+}
+
+.review-summary li:nth-child(2) {
+	margin-left: 5rem;
+}
+
+.review-summary li:last-child {
+	margin-left: 10rem;
+	margin-bottom: 0;
+}
+
+.review-item {
+	display: inline-block;
+	width: 44.5rem;
+
+	list-style: none;
+	background-color: #f7f2f7;
+	padding: 2rem 3.2rem;
+	border-radius: 0.8rem;
+}
+
+.review-stars {
+	display: inline-block;
+}
+.reviewed-by {
+	display: inline-block;
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #512051;
+	line-height: 1.45rem;
+	padding-left: 3.2rem;
+}
+.testimonials {
+}
+.testimonial-list {
+	display: flex;
+	gap: 3rem;
+
+	list-style-type: none;
+}
+
+.testimonial-list li:nth-child(2) {
+	margin-top: 1.6rem;
+}
+
+.testimonial-list li:last-child {
+	margin-top: 3.2rem;
+}
+
+.testimonial-item {
+	background-color: #512051;
+	padding: 4rem 3.2rem;
+	border-radius: 0.8rem;
+	height: 23.4rem;
+}
+
+.author-summary {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.6rem;
+}
+
+.testimonial-icon {
+	display: inline-block;
+	width: 4rem;
+	border-radius: 50%;
+}
+
+.author-info {
+	display: inline-block;
+	padding-left: 2.3rem;
+}
+
+.author {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #fff;
+}
+.author-title {
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #ee69a4;
+}
+.testimonial-text {
+	font-size: 1.3rem;
+	line-height: 2.2rem;
+	letter-spacing: -0.23px;
+	color: #fff;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+	display: none;
+}
